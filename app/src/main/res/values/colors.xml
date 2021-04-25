@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9579BD</color>
+    <color name="colorPrimaryDark">#1e1e45</color>
+    <color name="colorAccent">#253642</color>
+    <color name="darkMode">#10103a</color>
+    <color name="reverse_color">#6C089E</color>
+    <color name="temp_middle_color">#f74512</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_one">#CABBBB</color>
+    <color name="boz">#A5A2A2</color>
+    <color name="lig">#D6BDBD</color>
+    <color name="boz_300">#E3D5D5</color>
+    <color name="gradient_start_color">#6200EA</color>
+    <color name="light_boz">#262842</color>
+    <color name="white_boz">#8F92BF</color>
+    <color name="black">#000000</color>
+    <color name="red">#D50000</color>
+    <color name="yellow">#FFD600</color>
+    <color name="blue">#0096F3</color>
+    <color name="light_blue">#002D49</color>
+    <color name="dark_blue">#014670</color>
+    <color name="current_time_weather_color">#1e1e45</color>
+    <color name="brown">#DD2C00</color>
+    <color name="tab_selector_text_color">#3F7395</color>
+    <color name="next_7days_text_color">#1F812C</color>
+    <color name="green">#64DD17</color>
+
+</resources>

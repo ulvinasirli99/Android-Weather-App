@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/today_description"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:background="@color/current_time_weather_color">
+
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_current_time">
+
+        <TextView
+            android:id="@+id/hourly_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/font_bb"
+            android:text="12AM"
+            android:textColor="@color/white" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/hourly_temp_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/hourly_time"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/sun_image" />
+
+
+        <TextView
+            android:id="@+id/hourly_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hourly_temp_icon"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/font_bb"
+            android:text="26℃"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

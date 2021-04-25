@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.SettingActivity">
+
+
+    <ImageView
+        android:id="@+id/back_activity"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/unitSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back_activity"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Unit settings"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/mmmw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unitSetting"
+        android:layout_marginLeft="15dp"
+        android:text="Temperature,wind,pressure" />
+
+    <TextView
+        android:id="@+id/notifSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mmmw"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Notification settings"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/llope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notifSettings"
+        android:layout_marginLeft="15dp"
+        android:text="Setup notification (sound) settings" />
+
+    <TextView
+        android:id="@+id/advancedSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llope"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Advanced settings"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/mppe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advancedSettings"
+        android:layout_marginLeft="15dp"
+        android:text="Setup notification (sound) settings" />
+
+    <TextView
+        android:id="@+id/aboutApplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mppe"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Advanced settings"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ryru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutApplication"
+        android:layout_marginLeft="15dp"
+        android:text="Setup notification (sound) settings" />
+
+    <TextView
+        android:id="@+id/restartApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ryru"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Restart the app"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/restartApp"
+        android:layout_marginLeft="15dp"
+        android:text="Restart your application" />
+
+
+</RelativeLayout>

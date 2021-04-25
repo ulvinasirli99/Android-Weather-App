@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/newLocation"
+            android:icon="@drawable/add_loaction"
+            android:title="New location" />
+
+        <item
+            android:id="@+id/manageLocations"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="Manage locations" />
+
+        <item
+            android:id="@+id/refreshAll"
+            android:icon="@drawable/ic_baseline_refresh_24"
+            android:title="Refresh all" />
+
+
+    </group>
+
+
+    <item android:title="Location">
+
+        <menu>
+
+            <item
+                android:id="@+id/myLocation"
+                android:icon="@drawable/ic_baseline_my_location_24"
+                android:title="My location" />
+
+            <item
+                android:id="@+id/myRadar"
+                android:icon="@drawable/ic_baseline_radar_24"
+                android:title="Weather radar" />
+
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Version">
+
+        <menu>
+
+            <item
+                android:id="@+id/premiumVersion"
+                android:icon="@drawable/ic_baseline_contactless_24"
+                android:title="Premium version" />
+
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Setting">
+
+        <menu>
+
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Setting" />
+
+            <item
+                android:id="@+id/likeUsFacebook"
+                android:icon="@drawable/face_icon"
+                android:title="Like us facebook" />
+
+
+            <item
+                android:id="@+id/aboutApp"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="About the application" />
+
+
+        </menu>
+
+
+    </item>
+
+</menu>

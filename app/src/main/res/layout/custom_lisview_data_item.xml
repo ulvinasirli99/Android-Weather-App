@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/delete_item"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+
+    <TextView
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@id/lll"
+        android:id="@+id/location_list_item"
+        android:textStyle="bold"
+        android:textColor="@color/boz"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@id/delete_item"
+        android:textSize="18sp"
+        android:text="London"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/lll"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/editLocations"
+            android:src="@drawable/ic_baseline_edit_24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <ImageView
+            android:id="@+id/location_up_move"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <ImageView
+            android:id="@+id/location_down_move"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/location_list_item"
+        android:background="@color/boz"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+
+
+</RelativeLayout>
